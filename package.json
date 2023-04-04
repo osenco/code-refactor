@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"string_decoder": "^1.3.0"
+	}
+}

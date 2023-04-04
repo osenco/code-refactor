@@ -3,10 +3,11 @@ module.exports = {
   notFound,
 };
 
-function status(data, callback) {
-  callback(200, { status:'ok', message:'app running.' });
+function status(data, callback = null) {
+  
+  return { status:'ok', message:'app running.' };
 }
 
 function notFound(data, callback) {
-  callback(404);
+  return 404;
 }

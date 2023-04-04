@@ -1,13 +1,12 @@
 module.exports = {
-  status,
-  notFound,
+	status,
+	notFound,
 };
 
 function status(data, callback = null) {
-  
-  return { status:'ok', message:'app running.' };
+	return { status: "ok", message: "app running." };
 }
 
 function notFound(data, callback) {
-  return 404;
+	return 404;
 }
